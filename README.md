@@ -50,13 +50,13 @@ Then observe image downloads from your browser network panel in dev tools.
 - Firefox: Src will download. Will trigger another download if the srcset solution is different than src.
 - Safari: Src will download. Will trigger another download if the srcset solution is different than src.
 
-### src, then delayed dynamic srcset
+### src, then delayed srcset
 
 - Chrome: Src will download. Will trigger download of srcset variant when set.
 - Firefox:  Src will download. Will trigger download of srcset variant when set.
 - Safari:  Src will download. Will trigger download of srcset variant when set.
 
-### srcset, then delayed dynamic src
+### srcset, then delayed src
 
 - Chrome: Re-triggers download of srcset
 - Firefox: Re-triggers download of srcset image
@@ -80,7 +80,7 @@ Then observe image downloads from your browser network panel in dev tools.
 - Firefox: Src is downloaded. Srcset is then downloaded.
 - Safari: Src is downloaded. Srcset is then downloaded.
 
-### dynamic srcset, delayd dynamic src
+### dynamic srcset, delayd src
 
 - Chrome: Will trigger re-download of srcset if delay is long enough. In local testing, a delay of 6 milliseconds will do.
 - Firefox: Will trigger re-download of srcset if delay is long enough. In local testing, a delay of 6 milliseconds will do.
