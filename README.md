@@ -2,6 +2,11 @@
 
 This repo collects research on how mutating `src` and `srcset` properties on the `img` tag affects image download behavior in browsers. 
 
+## Definitions:
+
+- `dynamic`: The attribute does not exist in HTML when the `DOMContentLoaded` event fires. It is added via JavaScript.
+- `delayed`: The attribute does not exist in HTML when the `DOMContentLoaded` event fires. It is added via JavaScript after a delay using settimeout (to force property addition to a future next event loop tick).
+
 ## Testing
 
 An html file for each case exists in the src directory. You can test results yourself on a local server with:
