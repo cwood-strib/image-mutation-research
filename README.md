@@ -64,9 +64,9 @@ Then observe image downloads from your browser network panel in dev tools.
 
 ### dynamic src, then dynamic srcset
 
-	- Chrome: Downloads only correct srcset
-	- Firefox: Downloads only correct srcset
-	- Safari: Downloads src then downloads srcset
+- Chrome: Downloads only correct srcset
+- Firefox: Downloads only correct srcset
+- Safari: Downloads src then downloads srcset
 
 ### dynamic srcset, then dynamic src
 
